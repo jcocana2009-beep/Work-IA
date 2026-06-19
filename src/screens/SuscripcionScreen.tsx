@@ -24,7 +24,7 @@ const PREMIUM_FEATURES = [
   { icon: '🔥', text: 'Todo lo del plan Pro' },
   { icon: '⏳', text: 'Línea del tiempo visual' },
   { icon: '🌐', text: 'Traductor de apuntes (ES / EN / FR)' },
-  { icon: '♾️', text: 'Uso ilimitado — 300 consultas/mes' },
+  { icon: '♾️', text: '150 consultas al mes' },
   { icon: '⚡', text: 'Respuestas prioritarias' },
 ]
 

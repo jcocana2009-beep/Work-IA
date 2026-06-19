@@ -23,7 +23,7 @@ function UsageBar({ isPro, isPremium, dailyCount, monthlyCount, onUpgrade }: {
   isPro: boolean; isPremium: boolean; dailyCount: number; monthlyCount: number; onUpgrade: () => void
 }) {
   const dailyLimit = isPro ? null : 3
-  const monthlyLimit = isPremium ? 300 : isPro ? 80 : 20
+  const monthlyLimit = isPremium ? 150 : isPro ? 80 : 20
   const accentColor = isPremium ? '#C084FC' : isPro ? '#FBBF24' : '#38BDF8'
   const barGradient = isPremium
     ? 'linear-gradient(90deg,#A855F7,#C084FC)'

@@ -13,6 +13,8 @@ const TIPO_ICONS: Record<string, string> = {
   esquema:    '🗂️',
   flashcards: '🃏',
   corrector:  '✏️',
+  timeline:   '⏳',
+  traductor:  '🌐',
 }
 
 const TIPO_LABELS: Record<string, string> = {
@@ -24,6 +26,8 @@ const TIPO_LABELS: Record<string, string> = {
   esquema:    'Esquema',
   flashcards: 'Flashcards',
   corrector:  'Corrector',
+  timeline:   'Línea del tiempo',
+  traductor:  'Traductor',
 }
 
 const TIPO_ACCENT: Record<string, string> = {
@@ -35,6 +39,8 @@ const TIPO_ACCENT: Record<string, string> = {
   resumen:    '#38BDF8',
   ejercicios: '#F97316',
   clase:      '#6366F1',
+  timeline:   '#7C3AED',
+  traductor:  '#0D9488',
 }
 
 function formatFecha(fecha: any) {
